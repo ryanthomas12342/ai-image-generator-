@@ -1,0 +1,20 @@
+/* styles.css */
+
+.loader {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  color: #e5e7eb;
+  animation: spin 1s linear infinite;
+  fill: #6469ff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
